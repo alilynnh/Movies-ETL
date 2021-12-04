@@ -21,17 +21,17 @@ Software:
 ## Overview of Code
 
 1. [ETL_function_test.ipynb](ETL_function_test.ipynb)  
-    - Data is extracted from both data sources  
-    - Data is tranformed into Pandas dataframes 
+    - Extracts data from both data sources  
+    - Transforms the data into Pandas dataframes 
     
 2. [ETL_clean_wiki_movies.ipynb](ETL_clean_wiki_movies.ipynb)  
-    - Combine alternate language titles into one column
+    - Combines alternate language titles into one column
     - Orders columns
     - Uses the function "extract_transform_load" to transform the Wikipedia data   
 
 3. [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb)  
     - Addition of tasks to the "extract_transform_load" function which:  
-        - Change dataypes 
+        - Clean Kaggle data 
         - Fill missing values
         - Merge dataframes
         
